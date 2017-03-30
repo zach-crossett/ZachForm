@@ -1,0 +1,20 @@
+{
+  "name": "crossett",
+  "description": "",
+  "main": "index.js",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#^1.6.3",
+    "bootstrap": "^3.3.7",
+    "angular-route": "^1.6.3"
+  }
+}

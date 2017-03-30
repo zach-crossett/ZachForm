@@ -1,0 +1,7 @@
+.border-total {
+	border-top: 2px black solid;
+}
+
+.form-horizontal .control-label.control-label-left {
+	text-align: left;
+}

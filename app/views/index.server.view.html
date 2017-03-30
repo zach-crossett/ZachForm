@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Crossett</title>
+
+		<!--Application CSS Files-->
+		<link rel="stylesheet" href="./lib/bootstrap/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="./styles/app.css">
+
+		<!-- HTML5 Shim -->
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+
+		<div class="container-fluid" ng-view></div>
+
+		<!--Application JavaScript Files-->
+		<script src="./lib/jquery/dist/jquery.min.js"></script>
+		<script src="./lib/angular/angular.min.js"></script>
+		<script src="./lib/angular-route/angular-route.min.js"></script>
+
+		<script src="./modules/core/core.client.module.js"></script>
+		<script src="./modules/core/config/core.client.routes.js"></script>
+		<script src="./modules/core/controllers/form.client.controller.js"></script>
+		<script src="./modules/core/controllers/results.client.controller.js"></script>
+		<script src="./modules/core/services/api.client.service.js"></script>
+		<script src="./modules/core/services/storage.client.service.js"></script>
+
+		<script src="./application.js"></script>
+	</body>
+</html>
